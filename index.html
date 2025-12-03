@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DetailRecon - Professional advance reconnaissance reports for close protection teams. AI-powered photo analysis, instant PDF generation. Save 3 hours per mission. $99/mission.">
+    <meta name="keywords" content="advance reconnaissance, close protection, executive protection, security advance reports, advance work software, CP teams, professional detail, venue survey, security operations, protection details">
+    <meta name="author" content="DetailRecon">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="DetailRecon - Professional Advance Reconnaissance for Close Protection Teams">
+    <meta property="og:description" content="AI-powered advance reports. Upload photos → Get professional PDF in 15 minutes. Used by freelance CP agents and boutique protection firms.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://detailrecon.com">
+    <meta property="og:image" content="https://detailrecon.com/og-image.png">
+    
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DetailRecon - Professional Advance Reconnaissance">
+    <meta name="twitter:description" content="AI-powered advance reports for CP teams. $99/mission.">
+    <meta name="twitter:image" content="https://detailrecon.com/twitter-image.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://detailrecon.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DetailRecon",
+        "url": "https://detailrecon.com",
+        "logo": "https://detailrecon.com/logo.png",
+        "sameAs": [
+            "https://linkedin.com/company/detailrecon"
+        ],
+        "description": "Professional advance reconnaissance software for close protection teams",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "email": "support@detailrecon.com"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "DetailRecon",
+        "description": "AI-powered advance reconnaissance reports for close protection teams. Generate professional venue survey PDFs in 15 minutes.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://detailrecon.com",
+        "offers": {
+            "@type": "Offer",
+            "price": "99",
+            "priceCurrency": "GBP",
+            "availability": "https://schema.org/InStock"
+        },
+        "operatingSystem": "Web",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "47"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How long does it take to generate a report?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Once you upload your photos, DetailRecon uses AI to auto-caption them and compile everything into a professional PDF in 15 minutes. No manual formatting required."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to my data after I download the report?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All mission data is automatically deleted 7 days after download. We don't store your photos or reports longer than necessary. Your privacy is paramount."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use DetailRecon for multiple venues in one mission?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Each mission can include multiple venues. Upload all photos for each location, and the AI will organize them automatically with separate sections for each venue."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is DetailRecon suitable for boutique security firms?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. We offer team plans starting at $499/month for small security firms. White-label options are also available for brands wanting to embed DetailRecon into their own offering."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <title>DetailRecon - Professional Advance Reconnaissance Reports | Close Protection Teams</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .before-after-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .before-after-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-md border-b border-gray-100 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-800 text-slate-900">DetailRecon</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-sm font-500 text-gray-700 hover:text-blue-600">Features</a>
+                    <a href="#pricing" class="text-sm font-500 text-gray-700 hover:text-blue-600">Pricing</a>
+                    <a href="#faq" class="text-sm font-500 text-gray-700 hover:text-blue-600">FAQ</a>
+                    <a href="#contact" class="text-sm font-500 text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="cta-button px-6 py-2 rounded-lg text-white font-600 text-sm">Start Free</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center">
+                <h2 class="text-5xl md:text-6xl font-800 leading-tight mb-6">
+                    Professional Advance Reports.<br>In 15 Minutes.
+                </h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                    Stop spending 3+ hours formatting photos and writing venue surveys. DetailRecon uses AI to transform your reconnaissance photos into stunning, professional PDF reports instantly.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="cta-button px-8 py-3 rounded-lg text-white font-700 text-base">Try Free (5 Photos)</button>
+                    <button onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})" class="px-8 py-3 rounded-lg bg-white/10 border-2 border-white text-white font-700 hover:bg-white/20 transition">View Pricing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Before/After Section -->
+    <div class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-800 text-center mb-12 text-slate-900">The Problem You're Solving</h3>
+            <div class="before-after-container">
+                <!-- Before -->
+                <div class="feature-card bg-white rounded-lg p-8 border border-gray-200">
+                    <h4 class="text-xl font-700 text-red-600 mb-4">❌ The Old Way (3+ Hours)</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-3">
+                            <span class="text-red-500 font-bold">•</span>
+                            <span>50+ photos dumped into email/Dropbox</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-red-500 font-bold">•</span>
+                            <span>Manually sorting & naming files</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-red-500 font-bold">•</span>
+                            <span>Writing captions in Word doc</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-red-500 font-bold">•</span>
+                            <span>Formatting looks amateurish</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-red-500 font-bold">•</span>
+                            <span>Client doubts your professionalism</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- After -->
+                <div class="feature-card bg-white rounded-lg p-8 border-2 border-green-500">
+                    <h4 class="text-xl font-700 text-green-600 mb-4">✅ The DetailRecon Way (15 Minutes)</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-3">
+                            <span class="text-green-500 font-bold">•</span>
+                            <span>Upload all 50+ photos at once</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-green-500 font-bold">•</span>
+                            <span>AI auto-captions every photo</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-green-500 font-bold">•</span>
+                            <span>Professional PDF downloads instantly</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-green-500 font-bold">•</span>
+                            <span>Military-grade formatting included</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-green-500 font-bold">•</span>
+                            <span>Client sees professional precision</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-800 text-center mb-4 text-slate-900">Built for Close Protection Teams</h3>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Everything you need to look like a precision operation, not a startup.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-8 border border-blue-200">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">📸</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">AI Photo Analysis</h4>
+                    <p class="text-gray-700">Upload 50+ photos. Our AI instantly auto-captions, identifies security risks, and highlights potential vulnerabilities.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-8 border border-green-200">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">📄</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">Professional PDFs</h4>
+                    <p class="text-gray-700">Beautiful, branded reports that look like they came from a 50-person ops center. No formatting headaches.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-8 border border-purple-200">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">🔒</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">Privacy by Design</h4>
+                    <p class="text-gray-700">All mission data auto-deletes 7 days after download. Your photos are never stored longer than necessary.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-8 border border-orange-200">
+                    <div class="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">⚡</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">15-Minute Turnaround</h4>
+                    <p class="text-gray-700">From photo upload to download-ready PDF in 900 seconds. Time is money. DetailRecon saves both.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-8 border border-pink-200">
+                    <div class="w-12 h-12 bg-pink-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">🎯</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">Mobile-First Design</h4>
+                    <p class="text-gray-700">Built for phones. Upload from the venue, generate reports in the car. Perfect for mobile operatives.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-8 border border-indigo-200">
+                    <div class="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-800 mb-4">💼</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-3">Team & White-Label</h4>
+                    <p class="text-gray-700">Scale from solo operators to boutique firms. Team features and white-label options available.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div id="pricing" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-800 text-center mb-4 text-slate-900">Simple Pricing. No Surprises.</h3>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Pay for what you use. No monthly commitment required.</p>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- Tier 1: Free -->
+                <div class="bg-white rounded-lg border border-gray-200 p-8 text-center">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Try Free</h4>
+                    <p class="text-gray-600 text-sm mb-4">Perfect for testing</p>
+                    <div class="mb-6">
+                        <span class="text-3xl font-800 text-slate-900">£0</span>
+                    </div>
+                    <ul class="space-y-3 mb-6 text-sm text-left">
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>5 photos</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>1 mission</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Watermarked PDF</span>
+                        </li>
+                    </ul>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="w-full px-4 py-2 rounded-lg bg-gray-100 text-gray-700 font-600 hover:bg-gray-200">Start Now</button>
+                </div>
+                
+                <!-- Tier 2: Single Mission -->
+                <div class="bg-white rounded-lg border-2 border-blue-500 p-8 text-center shadow-lg">
+                    <div class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-700 inline-block mb-4">Most Popular</div>
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Single Mission</h4>
+                    <p class="text-gray-600 text-sm mb-4">One-time use</p>
+                    <div class="mb-6">
+                        <span class="text-3xl font-800 text-slate-900">£99</span>
+                    </div>
+                    <ul class="space-y-3 mb-6 text-sm text-left">
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Unlimited photos</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>1 mission (7-day access)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>No watermark</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Auto-delete after 7 days</span>
+                        </li>
+                    </ul>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="cta-button w-full px-4 py-2 rounded-lg text-white font-600">Buy Now</button>
+                </div>
+                
+                <!-- Tier 3: Monthly -->
+                <div class="bg-white rounded-lg border border-gray-200 p-8 text-center">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Monthly Pass</h4>
+                    <p class="text-gray-600 text-sm mb-4">For active agents</p>
+                    <div class="mb-6">
+                        <span class="text-3xl font-800 text-slate-900">£249</span>
+                        <span class="text-gray-600 text-sm">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-6 text-sm text-left">
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Unlimited missions</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Unlimited photos</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>No watermark</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>30-day data retention</span>
+                        </li>
+                    </ul>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="w-full px-4 py-2 rounded-lg border-2 border-blue-600 text-blue-600 font-600 hover:bg-blue-50">Subscribe</button>
+                </div>
+                
+                <!-- Tier 4: Team -->
+                <div class="bg-white rounded-lg border border-gray-200 p-8 text-center">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Team Plan</h4>
+                    <p class="text-gray-600 text-sm mb-4">For boutique firms</p>
+                    <div class="mb-6">
+                        <span class="text-3xl font-800 text-slate-900">£499</span>
+                        <span class="text-gray-600 text-sm">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-6 text-sm text-left">
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Up to 5 team members</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Unlimited missions</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>Team collaboration</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-green-600 font-bold">✓</span>
+                            <span>White-label option</span>
+                        </li>
+                    </ul>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="w-full px-4 py-2 rounded-lg bg-gray-100 text-gray-700 font-600 hover:bg-gray-200">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div id="faq" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-3xl font-800 text-center mb-12 text-slate-900">Frequently Asked Questions</h3>
+            
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">How long does it take to generate a report?</h4>
+                    <p class="text-gray-700">Once you upload your photos, DetailRecon's AI auto-captions them and compiles everything into a professional PDF in approximately 15 minutes. No manual formatting required.</p>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">What happens to my data after I download the report?</h4>
+                    <p class="text-gray-700">All mission data is automatically deleted 7 days after download (or 30 days for monthly subscribers). We don't store your photos or reports longer than necessary. Your privacy is paramount in our design.</p>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Can I use DetailRecon for multiple venues in one mission?</h4>
+                    <p class="text-gray-700">Yes. Each mission can include multiple venues. Upload all photos for each location, and the AI will organize them automatically with separate sections for each venue in your final PDF.</p>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Is DetailRecon suitable for boutique security firms?</h4>
+                    <p class="text-gray-700">Absolutely. We offer Team Plans starting at £499/month for small security firms with 5+ team members. White-label options are also available for firms wanting to embed DetailRecon into their own offering.</p>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">What file format is the report?</h4>
+                    <p class="text-gray-700">Reports are generated as professional PDF files. They can be downloaded, emailed, or shared via your preferred communication method. The formatting is optimized for screen viewing and printing.</p>
+                </div>
+                
+                <!-- FAQ 6 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h4 class="text-lg font-700 text-slate-900 mb-2">Do I need special software or apps?</h4>
+                    <p class="text-gray-700">No. DetailRecon works entirely in your web browser. Upload photos from your phone or desktop, and download the PDF. No installation required. Works on any device with internet access.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="py-16 px-4 sm:px-6 lg:px-8 bg-blue-600 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-800 mb-4">Ready to Save 3 Hours Per Mission?</h3>
+            <p class="text-lg text-blue-100 mb-8">Start free. No credit card required. Try DetailRecon with 5 photos and see the difference.</p>
+            <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="px-8 py-3 rounded-lg bg-white text-blue-600 font-700 hover:bg-gray-100 transition">Start Free Trial</button>
+        </div>
+    </div>
+
+    <!-- Contact/Signup Section -->
+    <div id="contact" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto">
+            <h3 class="text-3xl font-800 text-center mb-4 text-slate-900">Get Started with DetailRecon</h3>
+            <p class="text-center text-gray-600 mb-8">Enter your email to access the free trial and try DetailRecon with up to 5 photos. No credit card required.</p>
+            
+            <form class="bg-white rounded-lg border border-gray-200 p-8">
+                <div class="mb-6">
+                    <label class="block text-sm font-600 text-slate-900 mb-2">Full Name</label>
+                    <input type="text" placeholder="John Smith" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+                
+                <div class="mb-6">
+                    <label class="block text-sm font-600 text-slate-900 mb-2">Email Address</label>
+                    <input type="email" placeholder="john@example.com" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                </div>
+                
+                <div class="mb-6">
+                    <label class="block text-sm font-600 text-slate-900 mb-2">Organization</label>
+                    <input type="text" placeholder="Your security firm or name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                
+                <button type="submit" class="cta-button w-full px-6 py-3 rounded-lg text-white font-700">Get Free Access</button>
+                
+                <p class="text-xs text-gray-500 text-center mt-4">We'll send you a link to start your free trial. No spam. Ever.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-gray-400 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-white font-700 mb-4">DetailRecon</h4>
+                    <p class="text-sm">Professional advance reconnaissance for close protection teams.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-700 mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="hover:text-white">Features</a></li>
+                        <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+                        <li><a href="#faq" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-700 mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
+                        <li><a href="/terms" class="hover:text-white">Terms of Service</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-700 mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Email: <a href="mailto:support@detailrecon.com" class="hover:text-white">support@detailrecon.com</a></li>
+                        <li><a href="https://linkedin.com" class="hover:text-white">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-sm">
+                <p>&copy; 2025 DetailRecon. All rights reserved. UK-based close protection software.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Additional Resources -->
+    <link rel="sitemap" href="/sitemap.xml">
+    <link rel="robots" href="/robots.txt">
+</body>
+</html>
