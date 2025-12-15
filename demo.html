@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download a sample DetailRecon advance reconnaissance report. See how AI transforms your recon photos into professional PDF documentation in 15 minutes.">
+    <meta name="robots" content="noindex">
+    <title>Sample Report | DetailRecon - Professional Advance Reconnaissance</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sample Advance Reconnaissance Report | DetailRecon">
+    <meta property="og:description" content="See what your advance reports could look like. Professional PDF documentation generated from photos in 15 minutes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://detailrecon.com/demo">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.4);
+            transform: translateY(-2px);
+        }
+        
+        .preview-card {
+            transition: all 0.3s ease;
+        }
+        
+        .preview-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .form-container {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .pulse-border {
+            animation: pulse-border 2s infinite;
+        }
+        
+        @keyframes pulse-border {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(37, 99, 235, 0); }
+        }
+        
+        .check-icon {
+            color: #16a34a;
+        }
+        
+        /* Modal styles */
+        .modal-overlay {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(4px);
+        }
+        
+        .success-checkmark {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            animation: scale-in 0.3s ease;
+        }
+        
+        @keyframes scale-in {
+            0% { transform: scale(0); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-md border-b border-gray-100 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-2xl font-extrabold text-slate-900">DetailRecon</a>
+                <a href="/" class="text-sm font-medium text-gray-600 hover:text-blue-600">← Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white pt-28 pb-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block bg-white/10 border border-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
+                📄 Sample Report
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+                See What Your Advance Reports<br>Could Look Like
+            </h1>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                This demo report was generated from 6 photos in under 15 minutes. No manual formatting. No Word templates. Just professional documentation.
+            </p>
+        </div>
+    </div>
+
+    <!-- Report Preview Section -->
+    <div class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 text-center mb-4">What's Inside the Report</h2>
+            <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">A complete venue security assessment with AI-generated analysis, risk callouts, and actionable recommendations.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Preview 1: Cover -->
+                <div class="preview-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center p-6">
+                        <div class="text-center">
+                            <div class="text-white/60 text-xs uppercase tracking-wider mb-2">DetailRecon</div>
+                            <div class="text-white font-bold text-lg">ADVANCE</div>
+                            <div class="text-white font-bold text-lg">RECONNAISSANCE</div>
+                            <div class="text-white font-bold text-lg mb-3">REPORT</div>
+                            <div class="bg-white/10 rounded px-3 py-1 text-xs text-white/80">CONFIDENTIAL</div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-slate-900 mb-2">Professional Cover Page</h3>
+                        <p class="text-sm text-gray-600">Mission reference, venue details, classification marking, and preparation metadata.</p>
+                    </div>
+                </div>
+                
+                <!-- Preview 2: Executive Summary -->
+                <div class="preview-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-white border-b p-4 flex flex-col justify-center">
+                        <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">Executive Summary</div>
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-amber-500 text-white text-xs font-bold px-2 py-1 rounded">MEDIUM RISK</span>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div class="flex items-start gap-2 text-xs text-gray-700">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Vehicle approach assessment</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-xs text-gray-700">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>Internal layout analysis</span>
+                            </div>
+                            <div class="flex items-start gap-2 text-xs text-gray-700">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span>6 key recommendations</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-slate-900 mb-2">Executive Summary</h3>
+                        <p class="text-sm text-gray-600">Overall risk assessment, key findings, and prioritized recommendations at a glance.</p>
+                    </div>
+                </div>
+                
+                <!-- Preview 3: Photo Analysis -->
+                <div class="preview-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="h-48 bg-white border-b p-4">
+                        <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">Photo 1 of 6</div>
+                        <div class="bg-gray-200 h-20 rounded mb-2 flex items-center justify-center text-gray-400 text-xs">
+                            [Venue Photo]
+                        </div>
+                        <div class="text-xs font-medium text-slate-800 mb-1">EXTERIOR - Vehicle Approach</div>
+                        <div class="space-y-1">
+                            <div class="flex items-start gap-1 text-xs text-gray-600">
+                                <span class="text-blue-600">•</span>
+                                <span>Open car park layout...</span>
+                            </div>
+                            <div class="flex items-start gap-1 text-xs text-gray-600">
+                                <span class="text-blue-600">•</span>
+                                <span>Multiple access points...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-slate-900 mb-2">AI Photo Analysis</h3>
+                        <p class="text-sm text-gray-600">Each photo auto-captioned with security observations and operational notes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional features list -->
+            <div class="mt-12 bg-white rounded-xl shadow-lg p-8">
+                <h3 class="font-bold text-slate-900 mb-6 text-center">Full Report Includes</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-sm flex-shrink-0">1</div>
+                        <div>
+                            <div class="font-semibold text-slate-900 text-sm">Cover Page</div>
+                            <div class="text-xs text-gray-500">Mission ref & classification</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-sm flex-shrink-0">2</div>
+                        <div>
+                            <div class="font-semibold text-slate-900 text-sm">Executive Summary</div>
+                            <div class="text-xs text-gray-500">Risk level & key findings</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-sm flex-shrink-0">3</div>
+                        <div>
+                            <div class="font-semibold text-slate-900 text-sm">6 Photo Pages</div>
+                            <div class="text-xs text-gray-500">AI analysis per location</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 font-bold text-sm flex-shrink-0">4</div>
+                        <div>
+                            <div class="font-semibold text-slate-900 text-sm">Action Summary</div>
+                            <div class="text-xs text-gray-500">Priority tasks & sign-off</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Form Section -->
+    <div id="download" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-xl mx-auto">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Download the Sample Report</h2>
+                <p class="text-gray-600">Enter your details below to get instant access to the full PDF.</p>
+            </div>
+            
+            <div class="form-container rounded-2xl p-8 shadow-lg border border-gray-200 pulse-border">
+                <form id="leadForm" class="space-y-5">
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-slate-900 mb-2">Full Name *</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required
+                            placeholder="John Smith"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-slate-900 mb-2">Work Email *</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            placeholder="john@securityfirm.com"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="company" class="block text-sm font-semibold text-slate-900 mb-2">Company / Organisation</label>
+                        <input 
+                            type="text" 
+                            id="company" 
+                            name="company"
+                            placeholder="ABC Security Ltd (optional)"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="role" class="block text-sm font-semibold text-slate-900 mb-2">Your Role</label>
+                        <select 
+                            id="role" 
+                            name="role"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition bg-white"
+                        >
+                            <option value="">Select your role (optional)</option>
+                            <option value="freelance_cp">Freelance CP Agent</option>
+                            <option value="team_leader">Team Leader</option>
+                            <option value="advance_agent">Advance Agent</option>
+                            <option value="operations_manager">Operations Manager</option>
+                            <option value="security_director">Security Director</option>
+                            <option value="business_owner">Security Firm Owner</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <button 
+                        type="submit" 
+                        class="cta-button w-full py-4 rounded-lg text-white font-bold text-lg flex items-center justify-center gap-2"
+                    >
+                        <span>Download Sample Report</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </form>
+                
+                <p class="text-xs text-gray-500 text-center mt-4">
+                    By downloading, you agree to receive occasional updates from DetailRecon. Unsubscribe anytime.
+                </p>
+            </div>
+            
+            <!-- Trust indicators -->
+            <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>No spam, ever</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Your data stays private</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Instant download</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Proof / CTA Section -->
+    <div class="py-12 px-4 sm:px-6 lg:px-8 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4">Ready to Save 3 Hours Per Mission?</h3>
+            <p class="text-slate-300 mb-6">Join CP professionals who've upgraded their advance documentation.</p>
+            <a href="/#pricing" class="inline-block px-8 py-3 rounded-lg bg-white text-slate-900 font-bold hover:bg-gray-100 transition">
+                View Pricing →
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-gray-400 py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto text-center text-sm">
+            <p>&copy; 2025 DetailRecon. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="/privacy" class="hover:text-white">Privacy Policy</a> · 
+                <a href="/terms" class="hover:text-white">Terms of Service</a> · 
+                <a href="mailto:support@detailrecon.com" class="hover:text-white">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Success Modal (hidden by default) -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden">
+        <div class="modal-overlay absolute inset-0"></div>
+        <div class="relative min-h-screen flex items-center justify-center p-4">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full relative z-10">
+                <div class="success-checkmark">
+                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 text-center mb-2">Check Your Downloads!</h3>
+                <p class="text-gray-600 text-center mb-6">Your sample report is downloading now. If it doesn't start automatically, click below.</p>
+                <a 
+                    id="manualDownload"
+                    href="/sample-report.pdf" 
+                    download="DetailRecon_Sample_Report.pdf"
+                    class="cta-button block w-full py-3 rounded-lg text-white font-bold text-center"
+                >
+                    Download Again
+                </a>
+                <button 
+                    onclick="closeModal()"
+                    class="w-full mt-3 py-3 rounded-lg border border-gray-300 text-gray-700 font-semibold hover:bg-gray-50 transition"
+                >
+                    Close
+                </button>
+                <p class="text-xs text-gray-500 text-center mt-4">
+                    Questions? Email <a href="mailto:support@detailrecon.com" class="text-blue-600">support@detailrecon.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // PDF URL - update this to your actual hosted PDF location
+        const PDF_URL = '/sample-report.pdf';
+        
+        // Form submission handler
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                role: document.getElementById('role').value,
+                timestamp: new Date().toISOString(),
+                source: 'demo_page'
+            };
+            
+            // Store lead locally (you can also POST to your backend)
+            try {
+                // Option 1: Send to your backend API
+                // await fetch('/api/leads', {
+                //     method: 'POST',
+                //     headers: { 'Content-Type': 'application/json' },
+                //     body: JSON.stringify(formData)
+                // });
+                
+                // Option 2: For now, just log it (replace with actual endpoint)
+                console.log('Lead captured:', formData);
+                
+                // Store in localStorage as backup
+                const leads = JSON.parse(localStorage.getItem('detailrecon_leads') || '[]');
+                leads.push(formData);
+                localStorage.setItem('detailrecon_leads', JSON.stringify(leads));
+                
+            } catch (error) {
+                console.error('Error saving lead:', error);
+            }
+            
+            // Trigger download
+            const link = document.createElement('a');
+            link.href = PDF_URL;
+            link.download = 'DetailRecon_Sample_Report.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // Show success modal
+            document.getElementById('successModal').classList.remove('hidden');
+        });
+        
+        // Close modal function
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+        }
+        
+        // Close modal on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
+        
+        // Close modal on overlay click
+        document.querySelector('.modal-overlay').addEventListener('click', closeModal);
+    </script>
+</body>
+</html>
