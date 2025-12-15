@@ -56,7 +56,6 @@ const server = http.createServer((req, res) => {
     
     const headers = { 'Content-Type': contentType };
     if (ext === '.pdf') {
-      headers['Content-Disposition'] = 'inline; filename="DetailRecon_Sample_Report.pdf"';
       headers['Content-Length'] = data.length;
     }
     
